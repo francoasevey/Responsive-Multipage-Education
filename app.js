@@ -1,4 +1,4 @@
-const MAX = 50;
+/*const MAX = 50;
 
 var canvas, ctx;
 var count = 0;
@@ -78,4 +78,4 @@ function rus() {
     }
     count++;
     requestAnimationFrame(rus);
-}
+}*/
