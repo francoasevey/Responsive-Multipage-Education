@@ -99,6 +99,43 @@
     box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.5);
     transition: var(--transition);
 }
+@media screen and (max-width: 1024px){
+    .about_achievements{
+        margin-top: 2rem;
+    }
+    .achievement_icon{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .about_achievements-left{
+        width: 88%;
+        margin: 0 auto;
+    }
+    .team_container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    .team_member{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .achievements_cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    .team_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    .team_member{
+        padding: 0;
+    }
+    .team_member p{
+        margin-bottom: 1.5rem;
+    }
+}
 
 
 
